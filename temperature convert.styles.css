@@ -1,0 +1,69 @@
+/* Reset some default styles */
+body, h1, h2, p, input, select, button {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Header */
+  header {
+    background-color: #da1d1d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Converter section */
+  #converter {
+    margin: 40px auto;
+    width: 300px;
+    text-align: center;
+  }
+  
+  #converter h2 {
+    margin-bottom: 10px;
+  }
+  
+  #converter input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #converter select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #converter button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #converter p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
