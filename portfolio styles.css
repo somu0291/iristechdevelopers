@@ -1,0 +1,99 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* Header */
+  header {
+    background-color: #d61d1d;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header ul {
+    list-style: none;
+  }
+  
+  header ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header ul li a {
+    color: #fa1c1ce2;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+   
+  
+  /* About section */
+  #about {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Projects section */
+  #projects {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Contact section */
+  #contact {
+    background-color: #ee2626;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #contact button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #2a04b0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ec1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
