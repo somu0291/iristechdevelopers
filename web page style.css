@@ -1,0 +1,40 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    background-color: aquamarine;
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px 12px;
+  }
+  
+  ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
